@@ -6,8 +6,8 @@ const cors = require('cors');
 const querystring = require('querystring');
 const cookieParser = require('cookie-parser');
 
-const client_id = "d937b218883a44a4be33d331d8188ad4"; //Spotify Client ID
-const client_secret = "9c05d3c1cb584e00bd3643d7ffd98f77"; //Spotify Client Secret
+const client_id = "your client ID"; //Spotify Client ID
+const client_secret = "your secret"; //Spotify Client Secret
 const redirect_uri = "http://localhost:8888/"; //URI redirect https://teamtreehouse.com/community/what-is-redirect-uri
 /**
  * Generates a random string containing numbers and letters 

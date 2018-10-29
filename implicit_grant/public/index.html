@@ -120,8 +120,8 @@
               $('#loggedin').hide();
           }
           document.getElementById('login-button').addEventListener('click', function() {
-            var client_id = 'd937b218883a44a4be33d331d8188ad4'; // Your client id
-            var redirect_uri = '9c05d3c1cb584e00bd3643d7ffd98f77'; // Your redirect uri
+            var client_id = 'your client id'; // Your client id
+            var redirect_uri = 'your redirect'; // Your redirect uri
             var state = generateRandomString(16);
             localStorage.setItem(stateKey, state);
             var scope = 'user-read-private user-read-email';

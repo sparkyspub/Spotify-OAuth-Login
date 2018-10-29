@@ -1,7 +1,7 @@
 const request = require('request');
 
-const client_id = 'd937b218883a44a4be33d331d8188ad4';
-const client_secret = '9c05d3c1cb584e00bd3643d7ffd98f77';
+const client_id = 'your client id';
+const client_secret = 'your client secret';
 
 let authOptions = {
     url: "https://accounts.spotify.com/api/token",
